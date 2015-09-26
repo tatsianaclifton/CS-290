@@ -1,2 +1,2 @@
-# cs-290-example
-Demo repository CS 290
+# CS-290
+Repository for CS 290 Web Development
