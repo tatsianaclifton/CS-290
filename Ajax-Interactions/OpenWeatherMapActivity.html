@@ -3,20 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <title>Wheater</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
   <body>
       <form>
           <fieldset>
-              <legent>Current Weather</legent>
+              <legend>Find out the weather conditions</legend>
               <fieldset>
-                  <label for="zipCode">Enter zip code</label>
-                  <input type="text" name="zipCode" id="zip">
+                  <lable for="cityName">Enter city name</lable>
+                  <input type="text" name="city" id="city" placeholder="Your city name">
+                  <label for="zipCode">or zip code</label>
+                  <input type="text" name="zipCode" id="zip" placeholder="Your zip code">
                   <input type="submit" id="zipSubmit" value="Submit">
               </fieldset>
           </fieldset>      
       </form>  
-      <h2>Results</h2>
+      <h2 id="title"></h2>
       <ul>
           <li id="cityName"></li>
           <li id="temp"></li>

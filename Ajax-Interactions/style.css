@@ -1,0 +1,16 @@
+ul{
+    list-style: none;
+}
+
+h2{
+    font-size: 25px;
+}
+
+fieldset{
+    background-color: cornsilk;
+}
+
+legend{
+    font-size: 25px;
+    font-weight: bold;
+}
