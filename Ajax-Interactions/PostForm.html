@@ -1,3 +1,8 @@
+<!--This form submits asynchronously via a POST. 
+It sends a content-type of application/json, displays the data back 
+(which matches the data it was sent). It will be stored as a string in 
+the data field of the JSON encoded string returned from the server.-->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,13 +15,12 @@
       <form>
           <fieldset>
               <legend>POST form</legend>
-                  <lable for="string">Enter any string</lable>
+                  <label for="string">Enter any string</label>
                   <input type="text" name="string" id="string" placeholder="Your string">
                   <input type="submit" id="submit" value="Submit">
           </fieldset>      
       </form> 
       
-      <p id="data"></p>
-      
+      <p id="data"></p>      
   </body>
 </html>

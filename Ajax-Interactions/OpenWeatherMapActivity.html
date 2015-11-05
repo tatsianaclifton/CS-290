@@ -1,22 +1,24 @@
+<!--The form from the activities that connects to Open Weather Map,
+it lets a user input a city or a zip code and asynchronously shows 
+the weather information retrieved from Open Weather Map-->
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Wheater</title>
+    <title>Weather</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script1.js"></script>
   </head>
   <body>
       <form>
           <fieldset>
               <legend>Find out the weather conditions</legend>
-              <fieldset>
-                  <label for="cityName">Enter city name</label>
-                  <input type="text" name="city" id="city" placeholder="Your city name">
-                  <label for="zipCode">or zip code</label>
-                  <input type="text" name="zipCode" id="zip" placeholder="Your zip code">
-                  <input type="submit" id="zipSubmit" value="Submit">
-              </fieldset>
+			  <label for="cityName">Enter city name</label>
+			  <input type="text" name="city" id="city" placeholder="Your city name">
+			  <label for="zipCode">or zip code</label>
+			  <input type="text" name="zipCode" id="zip" placeholder="Your zip code">
+			  <input type="submit" id="submit" value="Submit">
           </fieldset>      
       </form>  
       <h2 id="title"></h2>

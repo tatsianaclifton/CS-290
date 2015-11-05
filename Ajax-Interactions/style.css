@@ -1,3 +1,5 @@
+/*CSS for both parts of the assignment*/
+
 ul{
     list-style: none;
 }
@@ -8,6 +10,7 @@ h2{
 
 fieldset{
     background-color: cornsilk;
+	border: 1px solid black;
 }
 
 legend{
