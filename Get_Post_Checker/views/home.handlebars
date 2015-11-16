@@ -1,0 +1,17 @@
+<h1>{{reqType}} Request Received</h1>
+{{#if urlData}}
+<h2>Data received in the URL query string</h2>
+  <ul>
+     {{#each urlData}}
+       <li>{{this.name}}: {{this.value}}</li>
+     {{/each}}
+   </ul>
+{{/if}}
+{{#if bodyData}}
+<h2>Data received received in the request body</h2>
+   <ul>
+     {{#each bodyData}}
+       <li>{{this.name}}: {{this.value}}</li>
+     {{/each}}
+   </ul>
+{{/if}}
